@@ -37,15 +37,15 @@ namespace Exercicio_13
             if (i > maior) maior = i;
             if (j > maior) maior = j;
 
-            if (b > menor) menor = b;
-            if (c > menor) menor = c;
-            if (d > menor) menor = d;
-            if (e > menor) menor = e;
-            if (f > menor) menor = f;
-            if (g > menor) menor = g;
-            if (h > menor) menor = h;
-            if (i > menor) menor = i;
-            if (j > menor) menor = j;
+            if (b < menor) menor = b;
+            if (c < menor) menor = c;
+            if (d < menor) menor = d;
+            if (e < menor) menor = e;
+            if (f < menor) menor = f;
+            if (g < menor) menor = g;
+            if (h < menor) menor = h;
+            if (i < menor) menor = i;
+            if (j < menor) menor = j;
 
             Console.WriteLine ($"O maior valor é {maior} e o menor é {menor}");
             Console.ReadKey();
